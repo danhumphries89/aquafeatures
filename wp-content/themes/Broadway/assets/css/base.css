@@ -1,5 +1,28 @@
 body {
   width: 100%;
   height: 100%;
+  margin: 0 0;
+  padding: 0 0;
   overflow: hidden;
   font-family: 'SourceSansProRegular'; }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 0; }
+
+.title {
+  margin: 0 0;
+  padding: 0 0; }
+  .title a {
+    width: 350px;
+    height: 180px;
+    margin: 0 auto;
+    display: block;
+    background: url("../images/logoMain.png") 0 -10px no-repeat;
+    -webkit-transition: all 0.2s ease-out;
+    opacity: 1; }
+    .title a:hover {
+      opacity: 0.7; }
+  .title span {
+    display: none; }

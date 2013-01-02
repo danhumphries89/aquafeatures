@@ -1,11 +1,7 @@
 <?php get_header(); ?>
 
-<div id="container" class="wrapper">
-
-	<div id="main_content">
-
-	</div>
-
-</div>
+<section class="section_main">
+	<?php the_content(); ?>
+</section?
 
 <?php get_footer(); ?>
