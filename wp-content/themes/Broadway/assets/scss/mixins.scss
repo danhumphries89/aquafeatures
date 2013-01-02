@@ -1,0 +1,7 @@
+@import 'variables';
+
+@mixin gradient-blue{
+	background: $lightBlue; 
+	background: -webkit-linear-gradient(bottom, $lightBlue 0%, $darkBlue 100%);
+	background-repeat: no-repeat;
+}
