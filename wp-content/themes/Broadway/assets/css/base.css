@@ -3,7 +3,7 @@ body {
   height: 100%;
   margin: 0 0;
   padding: 0 0;
-  font-family: 'SourceSansProRegular';
+  font-family: 'SourceSansProRegular', sans-serif;
   overflow: hidden; }
 
 .wrapper {
@@ -63,12 +63,15 @@ body {
           line-height: 44px;
           text-decoration: none;
           display: block;
-          border-left: 1px solid transparent;
-          border-right: 1px solid transparent; }
+          border: 1px solid transparent; }
           .main_header .menu_container .menu li a:hover {
             background-color: #3766aa;
-            border-left: 1px solid #497ec5;
-            border-right: 1px solid #497ec5; }
+            border: 1px solid transparent;
+            border-bottom: 2px solid #FFF; }
+        .main_header .menu_container .menu li .active-item {
+          background-color: #3766aa;
+          border: 1px solid transparent;
+          border-bottom: 2px solid #FFF; }
         .main_header .menu_container .menu li:first-child a {
           padding: 5px 10px 0; }
 
@@ -89,28 +92,31 @@ body {
     display: block;
     position: relative;
     overflow: hidden;
-    opacity: 0.8;
     -webkit-transition: all 0.4s linear; }
     .content-list .sliderImage .page-content {
       width: 450px;
       height: 100%;
       padding: 75px 25px 25px;
-      background: rgba(255, 255, 255, 0.5);
+      background: rgba(51, 51, 51, 0.8);
       border-right: 5px solid #3766aa; }
       .content-list .sliderImage .page-content h2, .content-list .sliderImage .page-content h4 {
         margin: 0 0;
         padding: 0 0;
         font-family: 'SourceSansProSemibold';
-        color: #000; }
+        color: #FFF; }
       .content-list .sliderImage .page-content h2 {
         margin: 5px 0 30px;
         font-size: 3em; }
       .content-list .sliderImage .page-content h4 {
+        padding: 0 0 5px;
         font-size: 1.5em;
-        border-bottom: 1px solid #000; }
+        border-bottom: 1px solid #FFF;
+        color: #FFF; }
       .content-list .sliderImage .page-content p {
-        margin: 0 0 15px;
+        margin: 15px 0 0;
         padding: 10px 0;
-        font-size: 1.25em;
+        font-size: 1.1em;
+        font-family: 'SourceSansProLightwebfont', sans-serif;
+        font-weight: normal;
         line-height: 1.25em;
-        color: #000; }
+        color: #FFF; }
