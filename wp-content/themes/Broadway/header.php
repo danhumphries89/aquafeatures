@@ -27,24 +27,23 @@
 			closedir($handle);
 		}
 	?>
-	<div class="flexslider">
-		<ul class="slides">
-			<?php foreach($items as $item) : ?>
-				<li>
-					<img src="sliderImages/<?php echo $item; ?>" class="sliderImage" />
-				</li>
-			<?php endforeach; ?>
-		</ul>
-	</div>
-	<div class="wrapper" id="main_content">
-		<header class="main_header">
-			<h1 class="title">
-				<a href="localhost:8888/aquafeatures/" title="<?php bloginfo( 'name' ); ?>">
-					<span><?php bloginfo('name'); ?></span>
-				</a>
-			</h1>
+	<header class="main_header wrapper" id="top">
+		<h1 class="title"> 
+			<a href="localhost:8888/aquafeatures/" title="<?php bloginfo( 'name' ); ?>">
+				<span><?php bloginfo('name'); ?></span>
+			</a>
+		</h1>
 
-			<div class="menu_container">
-				<?php wp_nav_menu( array('menu' => 'mainmenu' )); ?>
-			</div>
-		</header>
+		<div class="menu_container">
+			<?php wp_nav_menu( array('menu' => 'mainmenu' )); ?>
+		</div>
+	</header>
+
+	<div class="content-list">
+	<?php foreach($items as $key=>$item) : ?>
+
+			<li id="page<?php echo $key; ?>" style="background-image: url(sliderImages/<?php echo $item; ?>);" class="sliderImage">
+				<h2>Testing</h2>
+			</li>
+	<?php endforeach; ?>
+	</div>

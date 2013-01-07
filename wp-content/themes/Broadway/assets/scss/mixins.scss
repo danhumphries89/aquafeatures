@@ -2,6 +2,11 @@
 
 @mixin gradient-blue{
 	background: $lightBlue; 
-	background: -webkit-linear-gradient(bottom, $lightBlue 0%, $darkBlue 100%);
+	background: -webkit-linear-gradient(bottom, $darkBlue 0%, $lightBlue 100%);
 	background-repeat: no-repeat;
+}
+
+@mixin transparent-border{
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent
 }
