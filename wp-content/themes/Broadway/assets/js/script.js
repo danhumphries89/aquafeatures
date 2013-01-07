@@ -1,3 +1,11 @@
+$(window).ready(function(){
+	//simple scrollTo animation
+	$('.menu-item > a').click(function(event){
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+	});
+});
+
 $(window).scroll(function(){
 
 	var scrollPosition = $(window).scrollTop();
@@ -12,9 +20,11 @@ $(window).scroll(function(){
 			'position': 'fixed'
 		});
 		$('.content-list').css('top', '50px');
+		$('.homeButton').css('opacity', '1');
 	}
 	if(scrollPosition <= 180){
 		mainMenu.css('position', 'relative');
 		$('.content-list').css('top', '0');
+		$('.homeButton').css('opacity', '0');
 	}
 });

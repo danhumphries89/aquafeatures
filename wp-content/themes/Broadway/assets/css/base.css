@@ -42,12 +42,15 @@ body {
       display: block;
       overflow: hidden;
       list-style: none; }
-      .main_header .menu_container .menu .homeButton a {
-        color: transparent;
-        background-image: url("../images/homeButton.png");
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: 18px; }
+      .main_header .menu_container .menu .homeButton {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s linear; }
+        .main_header .menu_container .menu .homeButton a {
+          color: transparent;
+          background-image: url("../images/homeButton.png");
+          background-position: 50%;
+          background-repeat: no-repeat;
+          background-size: 18px; }
       .main_header .menu_container .menu li {
         margin: 0 0;
         padding: 0 0;
@@ -87,13 +90,3 @@ body {
     overflow: hidden;
     opacity: 0.75;
     -webkit-transition: all 0.2s linear; }
-    .content-list .sliderImage:first-child {
-      opacity: 1; }
-    .content-list .sliderImage:hover {
-      opacity: 1; }
-
-/** Style Classes called by Javascript Functions **/
-.sticky {
-  width: 100%;
-  top: 0;
-  position: fixed; }

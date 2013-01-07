@@ -54,6 +54,10 @@ body{
 			list-style: none;
 
 			.homeButton{
+				
+				opacity: 0;
+				-webkit-transition: opacity 0.2s linear;
+
 				a{ 
 					color: transparent; 
 					background-image: url('../images/homeButton.png');
@@ -113,11 +117,5 @@ body{
 		overflow: hidden;
 		opacity: 0.75;
 		-webkit-transition: all 0.2s linear;
-
-		&:first-child{ opacity: 1; }
-		&:hover{ opacity: 1; }
 	}
 }
-
-/** Style Classes called by Javascript Functions **/
-.sticky{ width: 100%; top: 0; position: fixed; }
