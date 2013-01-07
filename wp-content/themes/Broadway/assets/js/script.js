@@ -1,4 +1,5 @@
 $(window).ready(function(){
+
 	//simple scrollTo animation
 	$('.menu-item > a').click(function(event){
 		event.preventDefault();
