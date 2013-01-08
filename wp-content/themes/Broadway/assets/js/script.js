@@ -14,6 +14,16 @@ $(window).ready(function(){
 
 		previousItem = this;
 	});
+
+	$('.flexslider').flexslider({
+		animation: 'fade',
+		useCSS: false,
+		controlNav: false,
+		directionNav: false,
+		randomize: true,
+		slideshowSpeed: 5000,
+		animationSpeed: 1000
+	});
 });
 
 $(window).scroll(function(){

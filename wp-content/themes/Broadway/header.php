@@ -27,3 +27,33 @@
 			<?php wp_nav_menu( array('menu' => 'mainmenu' )); ?>
 		</div>
 	</header>
+
+	<?php
+		//load the images needed for the slider
+		if($handle = opendir('sliderImages')){
+			while(false !== ($entry = readdir($handle))){
+				if((strlen($entry) > 3) && (preg_match('/.jpg/i', $entry))){
+					$items[] = $entry;
+				}
+			}
+			closedir($handle);
+		}
+	?>
+	<section class="hero">
+		<div class="content-overlay">
+			<span class="quote-left"></span>
+			<h2>Water Features, Ponds, Aquariums and Pools are our passion...</h2>
+			<h3>We expect to give exceptional service and unrivalled value for money.</h3>
+			<span class="quote-right"></span>
+		</div>
+		<div class="flexslider">
+			<ul class="slides">
+			<?php foreach($items as $key=>$item) : ?>
+				<li>
+					<img src="sliderImages/<?php echo $item; ?>" />
+				</li>
+			<?php endforeach; ?>
+			</ul>
+		</div>
+	</section>
+	

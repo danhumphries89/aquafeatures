@@ -10,4 +10,6 @@ function registerMenus() {
 }
 add_action( 'init', 'registerMenus' );
 
+add_theme_support( 'post-thumbnails' ); 
+
 ?>
