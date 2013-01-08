@@ -27,7 +27,6 @@ body {
   width: 100%; }
   .main_header .menu_container {
     border-top: 1px solid #3766aa;
-    box-shadow: 0 2px 5px #444;
     z-index: 800;
     position: relative;
     background: #497ec5;
@@ -64,11 +63,11 @@ body {
           border-bottom: 2px solid transparent; }
           .main_header .menu_container .menu li a:hover {
             background-color: #3766aa;
-            border: 1px solid transparent;
+            border: 1px solid #3766aa;
             border-bottom: 2px solid #FFF; }
         .main_header .menu_container .menu li .active-item {
           background-color: #3766aa;
-          border: 1px solid transparent;
+          border: 1px solid #3766aa;
           border-bottom: 2px solid #FFF; }
         .main_header .menu_container .menu li:first-child a {
           padding: 5px 10px 0; }
@@ -82,11 +81,8 @@ body {
     padding: 25px 0;
     top: 0;
     left: 0;
-    background: #efefef;
-    background: -webkit-linear-gradient(bottom, #e0e0e0 0%, #efefef 100%);
-    background-repeat: no-repeat;
+    background: #FFF;
     border-bottom: 1px solid #b1afaf;
-    box-shadow: 0 2px 5px #333;
     text-align: center;
     position: absolute;
     z-index: 100; }
@@ -126,19 +122,18 @@ body {
     margin: 0 0;
     padding: 0 0 0;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 250px 0;
     background-size: 100%;
     display: block;
     position: relative;
-    overflow: hidden;
-    -webkit-transition: all 0.4s linear; }
+    overflow: hidden; }
     .content-list .sliderImage .page-content {
       width: 400px;
       height: 100%;
       padding: 25px 25px 25px;
-      background: rgba(51, 51, 51, 0.8);
-      border-right: 5px solid #3766aa;
-      -webkit-transition: all linear 0.5s; }
+      background: #333;
+      border-right: 5px solid #497ec5;
+      -webkit-transition: all 0.2s linear; }
       .content-list .sliderImage .page-content h2, .content-list .sliderImage .page-content h4 {
         margin: 0 0;
         padding: 0 0;

@@ -11,7 +11,7 @@ $(window).ready(function(){
 
 		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 
-		if(this.hash != "#top"){
+		if(this.hash !== "#top"){
 			$('.page-content').css('padding-top', '75px');
 		}else{
 			$('.page-content').css('padding-top', '25px');
@@ -33,13 +33,18 @@ $(window).scroll(function(){
 		mainMenu.css({
 			'width': '100%',
 			'top': '0',
-			'position': 'fixed'
+			'position': 'fixed',
+			'box-shadow': '0 2px 5px #333'
 		});
 		$('.content-list').css('top', '50px');
 		$('.homeButton').css('opacity', '1');
 	}
 	if(scrollPosition <= 180){
-		mainMenu.css('position', 'relative');
+		mainMenu.css({
+			'position': 'relative',
+			'box-shadow': 'none'
+
+		});
 		$('.content-list').css('top', '0');
 		$('.homeButton').css('opacity', '0');
 	}
