@@ -41,10 +41,8 @@
 	?>
 	<section class="hero">
 		<div class="content-overlay">
-			<span class="quote-left"></span>
 			<h2>Water Features, Ponds, Aquariums and Pools are our passion...</h2>
 			<h3>We expect to give exceptional service and unrivalled value for money.</h3>
-			<span class="quote-right"></span>
 		</div>
 		<div class="flexslider">
 			<ul class="slides">

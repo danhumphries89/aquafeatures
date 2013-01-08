@@ -162,3 +162,88 @@ body{
 		}
 	}
 }
+
+/** Responsive Media Queries **/
+@media all and (min-width: 1000px) and (max-width: 1200px){
+	body{ background: pink; }
+
+	.hero{
+		.content-overlay{
+			h2{ font-size: 2em;}
+			h3{ font-size: 1.5em; }
+
+			span{ display: none; }
+		}
+	}
+
+}
+
+@media all and (max-width: 1000px){
+	.hero{
+
+		height: 100px;
+
+		.content-overlay{
+			top: 0;
+			position: relative;
+
+			h2{ font-size: 1.8em;}
+			h3{ font-size: 1.3em; }
+
+			span{ display: none; }
+		}
+		.flexslider{ display: none; }
+	}
+
+	.content-list{
+
+		.sliderImage{
+			height: 720px;
+			background-size: 110%;
+
+			.page-content{
+				width: 300px;
+
+				h2{ font-size: 2em; }
+				h4{ font-size: 1.25em; }
+
+				p{ font-size: 1em; }
+			}
+		}
+	}
+}
+
+@media all and (max-width: 800px){
+	.main-header{
+		.menu_container{
+			.menu{
+				li{
+					a{ padding: 5px 18px 0; }
+				}
+			}
+		}
+	}
+	.hero{
+
+		height: 90px;
+
+		.content-overlay{
+			top: 0;
+			position: relative;
+
+			h2{ font-size: 1.5em;}
+			h3{ font-size: 1em; }
+
+			span{ display: none; }
+		}
+		.flexslider{ display: none; }
+	}
+
+	.content-list{
+		.sliderImage{
+			height: 1028px;
+			background-size: 205%;
+			background-position: 20% 0;
+		}
+	}
+}
