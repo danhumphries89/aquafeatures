@@ -22,7 +22,8 @@ $(window).ready(function(){
 		directionNav: false,
 		randomize: true,
 		slideshowSpeed: 5000,
-		animationSpeed: 1000
+		animationSpeed: 1000,
+		video: true
 	});
 });
 
