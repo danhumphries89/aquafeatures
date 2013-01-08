@@ -6,6 +6,12 @@
 	background-repeat: no-repeat;
 }
 
+@mixin gradient-grey{
+	background: $lightGrey; 
+	background: -webkit-linear-gradient(bottom, $darkGrey 0%, $lightGrey 100%);
+	background-repeat: no-repeat;	
+}
+
 @mixin transparent-border{
 	border: 1px solid transparent;
 }

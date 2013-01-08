@@ -44,14 +44,5 @@
 			<h2>Water Features, Ponds, Aquariums and Pools are our passion...</h2>
 			<h3>We expect to give exceptional service and unrivalled value for money.</h3>
 		</div>
-		<div class="flexslider">
-			<ul class="slides">
-			<?php foreach($items as $key=>$item) : ?>
-				<li>
-					<img src="sliderImages/<?php echo $item; ?>" />
-				</li>
-			<?php endforeach; ?>
-			</ul>
-		</div>
 	</section>
 	

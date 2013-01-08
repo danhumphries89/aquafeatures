@@ -10,20 +10,15 @@ $(window).ready(function(){
 		if(previousItem){ $(previousItem).toggleClass('active-item'); }
 
 		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+
+		if(this.hash != "#top"){
+			$('.page-content').css('padding-top', '75px');
+		}else{
+			$('.page-content').css('padding-top', '25px');
+		}
 		$(this).toggleClass('active-item');
 
 		previousItem = this;
-	});
-
-	$('.flexslider').flexslider({
-		animation: 'fade',
-		useCSS: false,
-		controlNav: false,
-		directionNav: false,
-		randomize: true,
-		slideshowSpeed: 5000,
-		animationSpeed: 1000,
-		video: true
 	});
 });
 

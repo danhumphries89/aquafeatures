@@ -26,6 +26,7 @@ body {
 .main_header {
   width: 100%; }
   .main_header .menu_container {
+    border-top: 1px solid #3766aa;
     box-shadow: 0 2px 5px #444;
     z-index: 800;
     position: relative;
@@ -74,14 +75,18 @@ body {
 
 .hero {
   width: 100%;
-  height: 550px;
+  height: 125px;
   position: relative; }
   .hero .content-overlay {
     width: 100%;
     padding: 25px 0;
-    top: 375px;
+    top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background: #efefef;
+    background: -webkit-linear-gradient(bottom, #e0e0e0 0%, #efefef 100%);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #b1afaf;
+    box-shadow: 0 2px 5px #333;
     text-align: center;
     position: absolute;
     z-index: 100; }
@@ -128,11 +133,12 @@ body {
     overflow: hidden;
     -webkit-transition: all 0.4s linear; }
     .content-list .sliderImage .page-content {
-      width: 450px;
+      width: 400px;
       height: 100%;
-      padding: 75px 25px 25px;
+      padding: 25px 25px 25px;
       background: rgba(51, 51, 51, 0.8);
-      border-right: 5px solid #3766aa; }
+      border-right: 5px solid #3766aa;
+      -webkit-transition: all linear 0.5s; }
       .content-list .sliderImage .page-content h2, .content-list .sliderImage .page-content h4 {
         margin: 0 0;
         padding: 0 0;
@@ -149,7 +155,7 @@ body {
       .content-list .sliderImage .page-content p {
         margin: 15px 0 0;
         padding: 10px 0;
-        font-size: 1.15em;
+        font-size: 1em;
         font-family: 'SourceSansProLightwebfont', sans-serif;
         line-height: 1.25em;
         color: #FFF; }

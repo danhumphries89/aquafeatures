@@ -35,6 +35,7 @@ body{
 	width: 100%;
 
 	.menu_container{
+		border-top: 1px solid $darkBlue;
 		box-shadow: 0 2px 5px #444;
 		z-index: 800;
 		position: relative;
@@ -93,15 +94,17 @@ body{
 
 .hero{
 	width: 100%;
-	height: 550px;
+	height: 125px;
 	position: relative;
 
 	.content-overlay{
 		width: 100%;
 		padding: 25px 0;
-		top: 375px;
+		top: 0;
 		left: 0;
-		background: rgba(255, 255, 255, 0.8);
+		@include gradient-grey;
+		border-bottom: 1px solid rgb(177, 175, 175);
+		box-shadow: 0 2px 5px #333;
 		text-align: center;
 		position: absolute;
 		z-index: 100;
@@ -140,11 +143,12 @@ body{
 
 		.page-content{
 
-			width: 450px;
+			width: 400px;
 			height: 100%;
-			padding: 75px 25px 25px;
+			padding: 25px 25px 25px;
 			background: rgba(51, 51, 51, 0.8);
 			border-right: 5px solid $darkBlue;
+			-webkit-transition: all linear 0.5s;
 
 			h2, h4{ margin: 0 0; padding: 0 0; font-family: 'SourceSansProSemibold'; color: #FFF; }
 				
@@ -154,7 +158,7 @@ body{
 			p{
 				margin: 15px 0 0;
 				padding: 10px 0;
-				font-size: 1.15em;
+				font-size: 1em;
 				font-family: 'SourceSansProLightwebfont', sans-serif;
 				line-height: 1.25em;
 				color: #FFF;
