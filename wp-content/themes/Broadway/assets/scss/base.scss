@@ -100,10 +100,10 @@ body{
 		position: absolute;
 		z-index: 100;
 
-		h2, h3{ margin: 0; padding: 0; color: #000; }
+		h2, h3{ margin: 0; padding: 0; color: #555; }
 
-		h2{ font-family: 'SourceSansProSemibold', sans-serif; font-size: 2.5em; text-shadow: 0 1px 2px #FFF; }
-		h3{ font-family: 'SourceSansProLightwebfont', sans-serif; font-size: 2em; }
+		h2{ font-family: 'SourceSansProSemibold', sans-serif; font-size: 2.5em; }
+		h3{ font-family: 'SourceSansProLightwebfont', sans-serif; font-size: 2em; color: #333; }
 
 		span{ width: 32px; height: 26px; position: absolute; }
 		.quote-left{ top: 15px; left: 80px; background: url('../images/quote-left.png') 0 0 no-repeat; }
@@ -131,7 +131,7 @@ body{
 			margin: 0 0 0 5%;
 			padding: 25px 25px 25px;
 
-			h2, h4{ margin: 0 0; padding: 0 0; font-family: 'SourceSansProSemibold'; color: #333; }
+			h2, h4{ margin: 0 0; padding: 0 0; font-family: 'SourceSansProSemibold'; color: #555; }
 				
 			h2{ margin: 5px 0 30px; font-size: 3em; }
 			h4{ padding: 0 0 5px; font-size: 1.5em; color: #333; }
@@ -142,7 +142,7 @@ body{
 				font-size: 1em;
 				font-family: 'SourceSansProLightwebfont', sans-serif;
 				line-height: 1.5em;
-				color: #333;
+				color: #444;
 			}
 
 			.alt-color{ color: $darkBlue; }

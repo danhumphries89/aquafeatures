@@ -82,14 +82,14 @@ body {
     .hero .content-overlay h2, .hero .content-overlay h3 {
       margin: 0;
       padding: 0;
-      color: #000; }
+      color: #555; }
     .hero .content-overlay h2 {
       font-family: 'SourceSansProSemibold', sans-serif;
-      font-size: 2.5em;
-      text-shadow: 0 1px 2px #FFF; }
+      font-size: 2.5em; }
     .hero .content-overlay h3 {
       font-family: 'SourceSansProLightwebfont', sans-serif;
-      font-size: 2em; }
+      font-size: 2em;
+      color: #333; }
     .hero .content-overlay span {
       width: 32px;
       height: 26px;
@@ -122,7 +122,7 @@ body {
         margin: 0 0;
         padding: 0 0;
         font-family: 'SourceSansProSemibold';
-        color: #333; }
+        color: #555; }
       .content-list .item .page-content h2 {
         margin: 5px 0 30px;
         font-size: 3em; }
@@ -136,7 +136,7 @@ body {
         font-size: 1em;
         font-family: 'SourceSansProLightwebfont', sans-serif;
         line-height: 1.5em;
-        color: #333; }
+        color: #444; }
       .content-list .item .page-content .alt-color {
         color: #3766aa; }
   .content-list .grey {
