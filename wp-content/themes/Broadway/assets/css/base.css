@@ -3,8 +3,7 @@ body {
   height: 100%;
   margin: 0 0;
   padding: 0 0;
-  font-family: 'SourceSansProRegular', sans-serif;
-  overflow: hidden; }
+  font-family: 'SourceSansProRegular', sans-serif; }
 
 .wrapper {
   width: 960px;
@@ -59,16 +58,11 @@ body {
           line-height: 44px;
           text-decoration: none;
           display: block;
-          border: 1px solid transparent;
-          border-bottom: 2px solid transparent; }
+          border: 1px solid transparent; }
           .main_header .menu_container .menu li a:hover {
-            background-color: #3766aa;
-            border: 1px solid #3766aa;
-            border-bottom: 2px solid #FFF; }
+            background-color: #3766aa; }
         .main_header .menu_container .menu li .active-item {
-          background-color: #3766aa;
-          border: 1px solid #3766aa;
-          border-bottom: 2px solid #FFF; }
+          background-color: #3766aa; }
         .main_header .menu_container .menu li:first-child a {
           padding: 5px 10px 0; }
 

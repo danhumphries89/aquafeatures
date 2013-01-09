@@ -7,14 +7,9 @@ body{
 	margin: 0 0;
 	padding: 0 0;
 	font-family: 'SourceSansProRegular', sans-serif;
-	overflow: hidden;
 }
 
-.wrapper{
-	width: 960px;
-	margin: 0 auto;
-	padding: 0 0;
-}
+.wrapper{ width: 960px; margin: 0 auto; padding: 0 0; }
 
 .title{
 
@@ -76,7 +71,6 @@ body{
 					text-decoration: none;
 					display: block;
 					@include transparent-border;
-					border-bottom: 2px solid transparent;
 
 					&:hover{ @include menu-hover; }
 				}

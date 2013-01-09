@@ -9,13 +9,10 @@ $(window).ready(function(){
 		//remove the class 'active-item'
 		if(previousItem){ $(previousItem).toggleClass('active-item'); }
 
-		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+		$('html,body').animate({
+			scrollTop: ($(this.hash).offset().top - 50)
+		}, 500);
 
-		if(this.hash !== "#top"){
-			$('.page-content').css('padding-top', '75px');
-		}else{
-			$('.page-content').css('padding-top', '25px');
-		}
 		$(this).toggleClass('active-item');
 
 		previousItem = this;
@@ -38,6 +35,7 @@ $(window).scroll(function(){
 		});
 		$('.content-list').css('top', '50px');
 		$('.homeButton').css('opacity', '1');
+		$('.content-overlay').css('top', '50px');
 	}
 	if(scrollPosition <= 180){
 		mainMenu.css({
@@ -47,5 +45,6 @@ $(window).scroll(function(){
 		});
 		$('.content-list').css('top', '0');
 		$('.homeButton').css('opacity', '0');
+		$('.content-overlay').css('top', '0');
 	}
 });
