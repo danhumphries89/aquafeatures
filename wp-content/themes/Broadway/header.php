@@ -28,17 +28,6 @@
 		</div>
 	</header>
 
-	<?php
-		//load the images needed for the slider
-		if($handle = opendir('sliderImages')){
-			while(false !== ($entry = readdir($handle))){
-				if((strlen($entry) > 3) && (preg_match('/.jpg/i', $entry))){
-					$items[] = $entry;
-				}
-			}
-			closedir($handle);
-		}
-	?>
 	<section class="hero">
 		<div class="content-overlay">
 			<h2>Water Features, Ponds, Aquariums and Pools are our passion...</h2>

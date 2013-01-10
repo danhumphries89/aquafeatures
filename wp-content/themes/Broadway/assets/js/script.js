@@ -1,22 +1,16 @@
 $(window).ready(function(){
 
-	var previousItem = "";
-
 	//simple scrollTo animation
 	$('.menu-item > a').click(function(event){
 		event.preventDefault();
-
-		//remove the class 'active-item'
-		if(previousItem){ $(previousItem).toggleClass('active-item'); }
 
 		$('html,body').animate({
 			scrollTop: ($(this.hash).offset().top - 50)
 		}, 500, 'swing');
 
-		$(this).toggleClass('active-item');
-
-		previousItem = this;
 	});
+
+	$('.slideshow0').flexslider();
 });
 
 $(window).scroll(function(){

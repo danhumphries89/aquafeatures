@@ -20,6 +20,26 @@
 	?>
 
 			<li id="page<?php echo $currentPost; ?>" class="item <?php echo $custom_fields['additional_classes'][0]; ?>">
+				<?php if($custom_fields['gallery_folder'][0]) : ?>
+					<div class="gallery_container slideshow<?php echo $currentPost; ?>">
+						<?php
+							//load the images needed for the slider
+							if($handle = opendir("galleries/".$custom_fields['gallery_folder'][0])){
+								while(false !== ($entry = readdir($handle))){
+									if((strlen($entry) > 3) && (preg_match('/.jpg/i', $entry))){
+										$items[] = $entry;
+									}
+								}
+								closedir($handle);
+							}
+						?>
+						<ul class="slides">
+						<?php foreach($items as $key=>$item) : ?>
+							<li><img src="galleries/<?php echo $custom_fields['gallery_folder'][0] ."/". $item; ?>" width="200" height="200" /></li>
+						<?php endforeach; ?>
+						</ul>
+					</div>
+				<?php endif; ?>
 				<div class="page-content">
 					<h2>
 						<?php 
