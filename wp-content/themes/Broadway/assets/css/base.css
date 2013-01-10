@@ -3,7 +3,8 @@ body {
   height: 100%;
   margin: 0 0;
   padding: 0 0;
-  font-family: 'SourceSansProRegular', sans-serif; }
+  font-family: 'SourceSansProRegular', sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 .wrapper {
   width: 960px;
@@ -157,6 +158,8 @@ body {
         color: #333; }
       .content-list .grey .page-content .alt-color {
         color: #FFF; }
+    .content-list .grey .gallery_container {
+      border-color: #666; }
   .content-list .black {
     background: #3E3E3E; }
     .content-list .black .page-content {
@@ -204,6 +207,8 @@ body {
   .content-list .right-layout .page-content {
     margin: 15px 5% 0 5%;
     float: right; }
+  .content-list .right-layout .gallery_container {
+    margin: 125px 5% 0 0; }
 
 .main_footer {
   background: #333;

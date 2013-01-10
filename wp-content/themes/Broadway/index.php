@@ -11,12 +11,7 @@
 			'orderby' => 'menu_order' 
 		));
 		while($page_query->have_posts()) : $page_query->the_post();
-
 			$custom_fields = get_post_meta(get_the_ID());
-
-			if(has_post_thumbnail()){
-				$post_thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
-			}
 	?>
 
 			<li id="page<?php echo $currentPost; ?>" class="item <?php echo $custom_fields['additional_classes'][0]; ?>">
@@ -52,7 +47,7 @@
 				<?php endif; ?>
 			</li>
 
-	<?php $currentPost++; unset($post_thumbnail); endwhile; ?>
+	<?php $currentPost++; unset($items); endwhile; ?>
 	</ul>
 
 <?php get_footer(); ?>

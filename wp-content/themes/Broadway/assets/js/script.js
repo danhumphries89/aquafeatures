@@ -11,6 +11,9 @@ $(window).ready(function(){
 	});
 
 	$('.slideshow0').flexslider({ itemWidth: 600, animation: 'slide', slideshow: false, useCSS: false, animationSpeed: 400 });
+	$('.slideshow1').flexslider({ itemWidth: 600, animation: 'slide', slideshow: false, useCSS: false, animationSpeed: 400 });
+
+	$('.slideshow3').flexslider({ itemWidth: 600, animation: 'slide', slideshow: false, useCSS: false, animationSpeed: 400 });
 });
 
 $(window).scroll(function(){
