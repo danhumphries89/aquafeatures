@@ -107,7 +107,8 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 0;
-  display: block; }
+  display: block;
+  list-style: none; }
   .content-list .item {
     width: 100%;
     height: 740px;
@@ -117,7 +118,8 @@ body {
     .content-list .item .page-content {
       width: 400px;
       margin: 0 0 0 5%;
-      padding: 25px 25px 25px; }
+      padding: 25px 25px 25px;
+      float: left; }
       .content-list .item .page-content h2, .content-list .item .page-content h4 {
         margin: 0 0;
         padding: 0 0;
@@ -139,6 +141,11 @@ body {
         color: #444; }
       .content-list .item .page-content .alt-color {
         color: #3766aa; }
+    .content-list .item .gallery_container {
+      width: 600px;
+      float: right;
+      margin: 145px 8% 0 0;
+      border: 5px solid #555; }
   .content-list .grey {
     background: #E0E0E0; }
     .content-list .grey .page-content {

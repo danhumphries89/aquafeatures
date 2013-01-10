@@ -10,7 +10,7 @@ $(window).ready(function(){
 
 	});
 
-	$('.slideshow0').flexslider();
+	$('.slideshow0').flexslider({ itemWidth: 600, animation: 'slide', slideshow: false, useCSS: false, animationSpeed: 400 });
 });
 
 $(window).scroll(function(){

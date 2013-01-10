@@ -20,8 +20,18 @@
 	?>
 
 			<li id="page<?php echo $currentPost; ?>" class="item <?php echo $custom_fields['additional_classes'][0]; ?>">
+				<div class="page-content">
+					<h2>
+						<?php 
+							$replaceString = "<span class='alt-color'>" . $custom_fields['title_field'][0] . "</span>";
+							$currentTitle = str_replace($custom_fields['title_field'][0], $replaceString, get_the_title()); 
+							echo $currentTitle;
+						?>
+					</h2>
+					<?php the_content(); ?>
+				</div>
 				<?php if($custom_fields['gallery_folder'][0]) : ?>
-					<div class="gallery_container slideshow<?php echo $currentPost; ?>">
+					<div class="gallery_container flexslider slideshow<?php echo $currentPost; ?>">
 						<?php
 							//load the images needed for the slider
 							if($handle = opendir("galleries/".$custom_fields['gallery_folder'][0])){
@@ -35,21 +45,11 @@
 						?>
 						<ul class="slides">
 						<?php foreach($items as $key=>$item) : ?>
-							<li><img src="galleries/<?php echo $custom_fields['gallery_folder'][0] ."/". $item; ?>" width="200" height="200" /></li>
+							<li><img src="galleries/<?php echo $custom_fields['gallery_folder'][0] ."/". $item; ?>" width="600" height="450" /></li>
 						<?php endforeach; ?>
 						</ul>
 					</div>
 				<?php endif; ?>
-				<div class="page-content">
-					<h2>
-						<?php 
-							$replaceString = "<span class='alt-color'>" . $custom_fields['title_field'][0] . "</span>";
-							$currentTitle = str_replace($custom_fields['title_field'][0], $replaceString, get_the_title()); 
-							echo $currentTitle;
-						?>
-					</h2>
-					<?php the_content(); ?>
-				</div>
 			</li>
 
 	<?php $currentPost++; unset($post_thumbnail); endwhile; ?>
