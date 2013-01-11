@@ -14,6 +14,8 @@
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/flexslider/jquery.flexslider-min.js"></script>
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/flexslider/flexslider.css" rel="stylesheet" type="text/css" />
 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_8SEqSNrM57GFyBHyHMUuikUh3XEkQeU&sensor=false"></script>
+
 </head>
 <body>
 	<header class="main_header wrapper" id="top">

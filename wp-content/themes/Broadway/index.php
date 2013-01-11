@@ -45,6 +45,9 @@
 						</ul>
 					</div>
 				<?php endif; ?>
+				<?php if($custom_fields['google_map'][0]) : ?>
+					<div class="google-map gallery_container" id="map_canvas"></div>
+				<?php endif; ?>
 			</li>
 
 	<?php $currentPost++; unset($items); endwhile; ?>
