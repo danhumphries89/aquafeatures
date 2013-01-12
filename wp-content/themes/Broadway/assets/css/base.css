@@ -3,7 +3,7 @@ body {
   height: 100%;
   margin: 0 0;
   padding: 0 0;
-  font-family: 'SourceSansProRegular', sans-serif;
+  font-family: "SourceSansProRegular", sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 .wrapper {
@@ -85,10 +85,10 @@ body {
       padding: 0;
       color: #555; }
     .hero .content-overlay h2 {
-      font-family: 'SourceSansProSemibold', sans-serif;
+      font-family: "SourceSansProSemibold", sans-serif;
       font-size: 2.5em; }
     .hero .content-overlay h3 {
-      font-family: 'SourceSansProLightwebfont', sans-serif;
+      font-family: "SourceSansProLightwebfont", sans-serif;
       font-size: 2em;
       color: #333; }
     .hero .content-overlay span {
@@ -137,7 +137,7 @@ body {
         margin: 15px 0 0;
         padding: 10px 0;
         font-size: 1em;
-        font-family: 'SourceSansProLightwebfont', sans-serif;
+        font-family: "SourceSansProLightwebfont", sans-serif;
         line-height: 1.5em;
         color: #444; }
       .content-list .item .page-content .alt-color {
@@ -146,7 +146,7 @@ body {
       width: 600px;
       float: right;
       margin: 145px 8% 0 0;
-      border: 5px solid #555; }
+      border: 5px solid #555555; }
   .content-list .grey {
     background: #E0E0E0; }
     .content-list .grey .page-content {
@@ -236,6 +236,53 @@ body {
 
 .google-map {
   height: 450px;
-  border: 5px solid #AAA;
+  border: 5px solid #aaaaaa;
   display: block;
   float: left; }
+
+@media all and (max-width: 768px) {
+  .hero {
+    height: 180px; }
+    .hero .content-overlay {
+      padding: 40px 0 0; }
+      .hero .content-overlay h2 {
+        font-size: 2em;
+        padding: 0 15%; }
+      .hero .content-overlay h3 {
+        margin: 15px 0 0;
+        font-size: 1.5em;
+        padding: 0 10%; }
+
+  .main_header .menu_container .menu li a {
+    font-size: 0.8em;
+    padding: 5px 22px 0; }
+
+  .content-list .item {
+    height: 550px;
+    padding: 25px 0; }
+    .content-list .item .page-content {
+      width: 100%;
+      margin: 0;
+      padding: 25px 0 0;
+      overflow: hidden; }
+      .content-list .item .page-content h2 {
+        margin: 5px 0 25px;
+        padding: 0 10%; }
+      .content-list .item .page-content p {
+        margin: 0;
+        padding: 0 10%; }
+      .content-list .item .page-content .mob {
+        margin-top: 25px; }
+      .content-list .item .page-content .email {
+        font-size: 1.2em; }
+      .content-list .item .page-content .email, .content-list .item .page-content .mob, .content-list .item .page-content .tel, .content-list .item .page-content .address {
+        width: 42%;
+        margin-left: auto;
+        margin-right: auto; }
+  .content-list .gallery_container {
+    display: none; }
+
+  .main_footer {
+    height: 68px; }
+    .main_footer p {
+      padding: 10px 0; } }

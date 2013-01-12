@@ -258,3 +258,59 @@ body{
 	display: block;
 	float: left;
 }
+
+@media all and (max-width: 768px){
+
+	.hero{
+
+		height: 180px;
+
+		.content-overlay{
+
+			padding: 40px 0 0;
+
+			h2{ font-size: 2em; padding: 0 15%; }
+			h3{ margin: 15px 0 0; font-size: 1.5em; padding: 0 10%; }
+		}
+
+	}
+
+	.main_header{
+		.menu_container{
+			.menu{
+				li{
+					a{
+						font-size: 0.8em;
+						padding: 5px 22px 0;
+					}
+				}
+			}
+		}
+	}
+
+	.content-list{
+		.item{
+
+			height: 550px;
+			padding: 25px 0;
+
+			.page-content{
+				width: 100%;
+				margin: 0;
+				padding: 25px 0 0;
+				overflow: hidden;
+
+				h2{ margin: 5px 0 25px; padding: 0 10%; }
+				p{ margin: 0; padding: 0 10%; }
+
+				.mob{ margin-top: 25px; }
+				.email{ font-size: 1.2em; }
+				.email, .mob, .tel, .address{ width: 42%; margin-left: auto; margin-right: auto; }
+			}
+		}
+		.gallery_container{ display: none; }
+	}
+
+	.main_footer{ height: 68px; p{ padding: 10px 0; } }
+}
+
