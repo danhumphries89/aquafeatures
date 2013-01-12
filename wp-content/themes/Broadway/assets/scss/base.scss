@@ -261,15 +261,17 @@ body{
 
 @media all and (max-width: 768px){
 
+	body{ zoom: 1; }
+
 	.hero{
 
-		height: 180px;
+		height: 200px;
 
 		.content-overlay{
 
 			padding: 40px 0 0;
 
-			h2{ font-size: 2em; padding: 0 15%; }
+			h2{ font-size: 1.8em; padding: 0 15%; }
 			h3{ margin: 15px 0 0; font-size: 1.5em; padding: 0 10%; }
 		}
 
@@ -278,6 +280,7 @@ body{
 	.main_header{
 		.menu_container{
 			.menu{
+				width: 100%;
 				li{
 					a{
 						font-size: 0.8em;
