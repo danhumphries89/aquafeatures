@@ -18,22 +18,3 @@
 
 </head>
 <body>
-	<header class="main_header wrapper" id="top">
-		<h1 class="title"> 
-			<a href="localhost:8888/aquafeatures/" title="<?php bloginfo( 'name' ); ?>">
-				<span><?php bloginfo('name'); ?></span>
-			</a>
-		</h1>
-
-		<div class="menu_container">
-			<?php wp_nav_menu( array('menu' => 'mainmenu' )); ?>
-		</div>
-	</header>
-
-	<section class="hero">
-		<div class="content-overlay">
-			<h2>Water Features, Ponds, Aquariums and Pools are our passion...</h2>
-			<h3>We expect to give exceptional service and unrivalled value for money.</h3>
-		</div>
-	</section>
-	

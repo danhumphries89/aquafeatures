@@ -1,0 +1,990 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"current",
+				"currentTitle"
+			],
+			[
+				"webkit-tran",
+				"webkit-transition"
+			],
+			[
+				"menu",
+				"menu_container"
+			],
+			[
+				"content",
+				"content-overlay"
+			],
+			[
+				"post",
+				"post_thumbnail"
+			],
+			[
+				"scr",
+				"scrollPosition"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"slider",
+				"sliderImages"
+			],
+			[
+				"read",
+				"readdir"
+			],
+			[
+				"repea",
+				"repeat-y"
+			],
+			[
+				"backgo",
+				"background-size"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"b",
+				"bg	background"
+			],
+			[
+				"cat",
+				"category_query"
+			],
+			[
+				"design",
+				"design_navigation"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"pric",
+				"price-style"
+			],
+			[
+				"home",
+				"home_class"
+			],
+			[
+				"animation",
+				"animationSpeed"
+			],
+			[
+				"the_p",
+				"the_post"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"register",
+				"register_taxonomy"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"new",
+				"news_query"
+			],
+			[
+				"al",
+				"all-headings"
+			],
+			[
+				"widget",
+				"widget-titles"
+			],
+			[
+				"webkit-tra",
+				"webkit-transition"
+			],
+			[
+				"test",
+				"testimonial_query"
+			],
+			[
+				"slide",
+				"slideshow"
+			],
+			[
+				"de",
+				"default-paragraphs"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"link",
+				"linkNameFinal"
+			],
+			[
+				"curr",
+				"currentItem"
+			],
+			[
+				"list",
+				"listElements"
+			],
+			[
+				"galle",
+				"gallery-list"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"main",
+				"mainmenu"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"wp_get_attat",
+				"wp_get_attachment_url"
+			],
+			[
+				"popu",
+				"popular_query"
+			],
+			[
+				"que",
+				"query_posts"
+			],
+			[
+				"get_the_",
+				"get_the_ID"
+			],
+			[
+				"inpu",
+				"inputBackground"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"get_the",
+				"get_the_category"
+			],
+			[
+				"bang",
+				"bangleSizeShortcode"
+			],
+			[
+				"customer",
+				"customerDetailsShortcode"
+			],
+			[
+				"cd_te",
+				"cd_textbox"
+			],
+			[
+				"op",
+				"options_meta"
+			],
+			[
+				"option",
+				"option_explode"
+			],
+			[
+				"Turquo",
+				"Turquoise"
+			],
+			[
+				"alert",
+				"alertMessage"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"cur",
+				"currentID"
+			],
+			[
+				"ste",
+				"steps"
+			],
+			[
+				"step",
+				"stepsList"
+			],
+			[
+				"pa",
+				"pageNumber"
+			],
+			[
+				"curre",
+				"currentID"
+			],
+			[
+				"app",
+				"appendText"
+			],
+			[
+				"appen",
+				"appendChild"
+			],
+			[
+				"edu",
+				"educationPrettyFields"
+			],
+			[
+				"json",
+				"jsonItems"
+			],
+			[
+				"out",
+				"outputAreaContent"
+			],
+			[
+				"output",
+				"outputAreaContent"
+			],
+			[
+				"dele",
+				"deleteCell"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"opu",
+				"outputItems"
+			],
+			[
+				"outpu",
+				"outputItems"
+			],
+			[
+				"pretty",
+				"prettyFields"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"table",
+				"tableTBody"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"number",
+				"numberRows"
+			],
+			[
+				"tabe",
+				"tableID"
+			],
+			[
+				"remove",
+				"removeRowButton"
+			],
+			[
+				"add",
+				"addEvent"
+			],
+			[
+				"dete",
+				"deleteRowCell"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"creat",
+				"createElement"
+			],
+			[
+				"ne",
+				"newCellElement"
+			],
+			[
+				"num",
+				"numberRows"
+			],
+			[
+				"tex",
+				"textFields"
+			],
+			[
+				"te",
+				"textFields"
+			],
+			[
+				"d",
+				"dynamic_qualifications"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/header.php",
+			"settings":
+			{
+				"buffer_size": 1717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php get_header(); ?>\n\n	<ul class=\"content-list\">\n\n	<?php\n\n		$currentPost = 0;\n		$page_query = new WP_Query( array( \n			'post_type' => 'page', \n			'order' => 'ASC', \n			'orderby' => 'menu_order' \n		));\n		while($page_query->have_posts()) : $page_query->the_post();\n			'$custom_fields = get_post_meta(get_the_ID());'\n	?>\n\n			<li id=\"page<?php echo $currentPost; ?>\" class=\"item <?php echo $custom_fields['additional_classes'][0]; ?>\">\n				<div class=\"page-content\">\n					<h2>\n						<?php \n							$replaceString = \"<span class='alt-color'>\" . $custom_fields['title_field'][0] . \"</span>\";\n							$currentTitle = str_replace($custom_fields['title_field'][0], $replaceString, get_the_title()); \n							echo $currentTitle;\n						?>\n					</h2>\n					<?php the_content(); ?>\n				</div>\n				<?php if($custom_fields['gallery_folder'][0]) : ?>\n					<div class=\"gallery_container flexslider slideshow<?php echo $currentPost; ?>\">\n						<?php\n							//load the images needed for the slider\n							if($handle = opendir(\"galleries/\".$custom_fields['gallery_folder'][0])){\n								while(false !== ($entry = readdir($handle))){\n									if((strlen($entry) > 3) && (preg_match('/.jpg/i', $entry))){\n										$items[] = $entry;\n									}\n								}\n								closedir($handle);\n							}\n						?>\n						<ul class=\"slides\">\n						<?php foreach($items as $key=>$item) : ?>\n							<li><img src=\"galleries/<?php echo $custom_fields['gallery_folder'][0] .\"/\". $item; ?>\" width=\"600\" height=\"450\" /></li>\n						<?php endforeach; ?>\n						</ul>\n					</div>\n				<?php endif; ?>\n				<?php if($custom_fields['google_map'][0]) : ?>\n					<div class=\"google-map gallery_container\" id=\"map_canvas\"></div>\n				<?php endif; ?>\n			</li>\n\n	<?php $currentPost++; unset($items); endwhile; ?>\n	</ul>\n\n<?php get_footer(); ?>",
+			"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/index.php",
+			"file_size": 1779,
+			"file_write_time": 1357899660000000,
+			"settings":
+			{
+				"buffer_size": 1781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/footer.php",
+			"settings":
+			{
+				"buffer_size": 249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/functions.php",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/js/script.js",
+			"settings":
+			{
+				"buffer_size": 2741,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "base.scss",
+			"settings":
+			{
+				"buffer_size": 5635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/flexslider/flexslider.css",
+			"settings":
+			{
+				"buffer_size": 3562,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mixins.scss",
+			"settings":
+			{
+				"buffer_size": 292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "variables.scss",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/flexslider/flexslider.css",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/css/fonts.css",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/header.php",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/scsss/untitled",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/flexslider/jquery.flexslider-min.js",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/archive-lanni_products.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/taxonomy-lanni_products.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/category-designs.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/category-lanni_products",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/single-lanni_products.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/flexslider/flexslider.css",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/style.css",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/singe-lanni_products.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/sass/variables.sass",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/sass/mixins.sass",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/sass/base.sass",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/css/base.css",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/index.php",
+		"/Users/dan/Desktop/The Forge/Sway Grantham/www/wp-content/themes/twentyeleven/index.php",
+		"/Users/dan/Desktop/Broadway/assets/css/base.css",
+		"/Users/dan/Desktop/Broadway/footer.php",
+		"/Users/dan/Desktop/Broadway/index.php",
+		"/Users/dan/Desktop/Broadway/header.php",
+		"/Users/dan/Desktop/Broadway/stylesheet.css",
+		"/Users/dan/Desktop/stylesheet.css",
+		"/Users/dan/Desktop/helloworld.html",
+		"/untitled",
+		"/Users/dan/Desktop/The Forge/Sway Grantham/rewrite.txt",
+		"/Users/dan/Desktop/The Forge/Sway Grantham/www/.htaccess",
+		"/Users/dan/Desktop/The Forge/The Forge/www/new_webtest/assets/css/main.css",
+		"/Users/dan/Desktop/The Forge/The Forge/www/new_webtest/index.html",
+		"/Users/dan/Desktop/The Forge/The Forge/www/new_webtest/sftp-config.json",
+		"/Users/dan/Desktop/The Forge/Sublime/The Forge",
+		"/Users/dan/Desktop/Qlue/jobapplicationform.js",
+		"/Users/dan/Desktop/Qlue/text.html",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/administrator/components/com_mycollegedashboard/models/subjects.php",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/administrator/components/com_mycollegedashboardadmin/views/subjectusers/view.html.php",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/administrator/components/com_mycollegedashboardadmin/models/subjectusers.php",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/administrator/components/com_mycollegedashboardadmin/models/subjectlikes.php",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/sftp-config.json",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"224",
+			"255",
+			"SourceSansPro",
+			"(' ",
+			" ",
+			"SourceSansPro",
+			"pause",
+			"Silver",
+			"Orange",
+			"buttons-list",
+			"buttons",
+			"employer",
+			"higher_edu",
+			"input",
+			"126",
+			"15px",
+			"portfolio",
+			"our_work",
+			"age",
+			"(*)",
+			"button",
+			"li",
+			" >",
+			"li",
+			"clear",
+			"job_reference",
+			"<legend>",
+			"addRowTable",
+			"textFields"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/header.php",
+					"settings":
+					{
+						"buffer_size": 1717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1461,
+								1409
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/index.php",
+					"settings":
+					{
+						"buffer_size": 1781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								314
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 41.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/footer.php",
+					"settings":
+					{
+						"buffer_size": 249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								26
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/functions.php",
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								45
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/js/script.js",
+					"settings":
+					{
+						"buffer_size": 2741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1954,
+								1954
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 754.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "base.scss",
+					"settings":
+					{
+						"buffer_size": 5635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/flexslider/flexslider.css",
+					"settings":
+					{
+						"buffer_size": 3562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1398,
+								1398
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 213.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "mixins.scss",
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "variables.scss",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								104
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.607131618924,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sing",
+				"single-lanni_products.php"
+			],
+			[
+				"fle",
+				"assets/flexslider/jquery.flexslider-min.js"
+			],
+			[
+				"cate",
+				"category.php"
+			],
+			[
+				"ar",
+				"archive-lanni_products.php"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"single",
+				"single-lanni_products.php"
+			],
+			[
+				"fl",
+				"assets/flexslider/flexslider.css"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"flex",
+				"assets/flexslider/flexslider.css"
+			],
+			[
+				"vai",
+				"assets/sass/variables.scss"
+			],
+			[
+				"mix",
+				"assets/sass/mixins.scss"
+			],
+			[
+				"ba",
+				"assets/sass/base.scss"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"",
+				"assets/css/base.css"
+			],
+			[
+				"s",
+				"style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true
+}
